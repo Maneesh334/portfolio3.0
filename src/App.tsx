@@ -24,7 +24,7 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
               </Routes>
             </main>
-            <div className="h-16"> {/* Adjust this value to control Hero height */}
+            <div className="h-24"> {/* Adjust this value to control Hero height */}
               <Hero />
             </div>
           </div>

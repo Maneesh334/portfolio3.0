@@ -8,7 +8,7 @@ const Hero = () => {
       style={{
         backgroundImage:
           "url('https://images.squarespace-cdn.com/content/v1/593e5895a5790aa6651b4390/1521475514761-8D9UBX12O7GWWG4A3CP1/vlcsnap-2018-03-19-15h36m27s542.jpg?format=2500w')",
-        height: '32vh',
+        height: '20vh',
         margin: 0,
       }}
     >
