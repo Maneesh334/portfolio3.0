@@ -15,8 +15,8 @@ function App() {
         <Sidebar />
         <div className="flex flex-col flex-1">
           <Navbar />
-          <div className="flex-1 overflow-auto">
-            <main className="p-8">
+          <div className="flex-1 overflow-hidden flex flex-col">
+            <main className="flex-1 overflow-auto p-8">
               <Routes>
                 <Route path="/" element={<About />} />
                 <Route path="/resume" element={<Resume />} />
@@ -24,8 +24,10 @@ function App() {
                 <Route path="/contact" element={<Contact />} />
               </Routes>
             </main>
+            <div className="h-16"> {/* Adjust this value to control Hero height */}
+              <Hero />
+            </div>
           </div>
-          <Hero />
         </div>
       </div>
     </Router>
