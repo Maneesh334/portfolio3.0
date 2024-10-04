@@ -1,11 +1,12 @@
 import React from 'react';
+import portraitImage from './photo.jpg';
 import { Mail, MapPin } from 'lucide-react';
 
 const Sidebar = () => {
   return (
     <aside className="w-80 p-6 card">
       <img
-        src="./photo.jpg"
+        src={portraitImage}
         alt="Maneesh Reddy"
         className="w-full h-64 object-cover rounded-lg mb-4"
       />
