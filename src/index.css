@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #121212;
+  --card-background: #1E1E1E;
+  --text-primary: #FFFFFF;
+  --text-secondary: #B3B3B3;
+  --accent: #FFC107;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--background);
+  color: var(--text-primary);
+}
+
+.card {
+  background-color: var(--card-background);
+  border-radius: 8px;
+}
+
+.accent {
+  color: var(--accent);
+}
